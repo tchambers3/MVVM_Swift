@@ -16,8 +16,15 @@ struct Employees: Decodable {
 
 // MARK: - Datum
 struct EmployeeData: Decodable {
-    let id, employeeName, employeeSalary, employeeAge: String
+		let id: Int
+		let employeeName: String
+		let employeeSalary: Int
+		let employeeAge: Int
     let profileImage: String
+	
+		var idDisplayString: String {
+			String(id)
+		}
 
     enum CodingKeys: String, CodingKey {
         case id

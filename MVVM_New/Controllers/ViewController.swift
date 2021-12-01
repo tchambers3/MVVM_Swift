@@ -34,7 +34,7 @@ class ViewController: UIViewController {
     func updateDataSource(){
         
         self.dataSource = EmployeeTableViewDataSource(cellIdentifier: "EmployeeTableViewCell", items: self.employeeViewModel.empData.data, configureCell: { (cell, evm) in
-            cell.employeeIdLabel.text = evm.id
+            cell.employeeIdLabel.text = evm.idDisplayString
             cell.employeeNameLabel.text = evm.employeeName
         })
         

@@ -16,7 +16,7 @@ class EmployeeTableViewCell: UITableViewCell {
     
     var employee : EmployeeData? {
         didSet {
-            employeeIdLabel.text = employee?.id
+            employeeIdLabel.text = employee?.idDisplayString
             employeeNameLabel.text = employee?.employeeName
         }
     }
