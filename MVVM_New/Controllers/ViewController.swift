@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     }
     
     func callToViewModelForUIUpdate(){
-        
+				employeeTableView.delegate = self
         self.employeeViewModel =  EmployeesViewModel()
         self.employeeViewModel.bindEmployeeViewModelToController = {
             self.updateDataSource()
@@ -46,3 +46,9 @@ class ViewController: UIViewController {
     
 }
 
+extension ViewController: UITableViewDelegate {
+	func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+		let detailVC = DetailViewController()
+		navigationController?.pushViewController(detailVC, animated: true)
+	}
+}

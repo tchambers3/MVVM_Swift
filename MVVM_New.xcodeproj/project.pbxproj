@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16CAC60C275977B600823EAB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CAC60B275977B600823EAB /* DetailViewController.swift */; };
 		388A2FEE24755072003E4341 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388A2FED24755072003E4341 /* AppDelegate.swift */; };
 		388A2FF024755072003E4341 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388A2FEF24755072003E4341 /* SceneDelegate.swift */; };
 		388A2FF224755072003E4341 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388A2FF124755072003E4341 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16CAC60B275977B600823EAB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		388A2FEA24755072003E4341 /* MVVM_New.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVM_New.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		388A2FED24755072003E4341 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		388A2FEF24755072003E4341 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				388A2FF124755072003E4341 /* ViewController.swift */,
+				16CAC60B275977B600823EAB /* DetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16CAC60C275977B600823EAB /* DetailViewController.swift in Sources */,
 				388A2FF224755072003E4341 /* ViewController.swift in Sources */,
 				388A300D247581C4003E4341 /* EmployeeTableViewCell.swift in Sources */,
 				388A30032475511D003E4341 /* Employee.swift in Sources */,
