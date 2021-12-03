@@ -8,6 +8,7 @@
 
 import Foundation
 
+// Sort Employees by either Age or Name in here
 class EmployeesViewModel : NSObject {
     
     private var apiService : APIService!
